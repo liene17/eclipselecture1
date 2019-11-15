@@ -1,0 +1,126 @@
+!SESSION 2019-10-28 18:44:27.878 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_222
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2019-10-28 18:44:33.911
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2019-10-28 18:44:35.240
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:44:35.240
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:44:35.240
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:44:35.240
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:44:35.240
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-10-28 18:44:35.241
+!MESSAGE Unable to restore perspective: Workspace - Java.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-10-28 18:44:35.241
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-10-28 18:44:35.241
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:44:35.241
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:44:35.241
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:44:35.241
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:44:35.241
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:44:35.241
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:44:35.241
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:44:35.241
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:44:35.241
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-10-28 18:44:35.241
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:44:35.241
+!MESSAGE OK
+!SESSION 2019-10-28 18:46:27.846 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_222
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-10-28 18:46:30.449
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2019-10-28 18:46:33.143
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2019-10-28 18:46:34.399
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-10-28 18:46:34.399
+!MESSAGE Unable to restore perspective: Workspace - Java.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-10-28 18:46:34.399
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-10-28 18:46:34.399
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-10-28 18:46:34.399
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-10-28 18:46:34.399
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2019-10-28 18:46:34.400
+!MESSAGE OK
+!SESSION 2019-10-30 18:17:01.980 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_222
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface.text 2 0 2019-10-30 19:34:22.855
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.text.edits.TextEdit.<init>(TextEdit.java:148)
+	at org.eclipse.text.edits.DeleteEdit.<init>(DeleteEdit.java:33)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doTextRemove(ASTRewriteAnalyzer.java:337)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.doTextRemoveAndVisit(ASTRewriteAnalyzer.java:346)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.rewriteBodyNode(ASTRewriteAnalyzer.java:883)
+	at org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer.visit(ASTRewriteAnalyzer.java:2404)
+	at org.eclipse.jdt.core.dom.IfStatement.accept0(IfStatement.java:186)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2514)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.internalRewriteAST(ASTRewrite.java:291)
+	at org.eclipse.jdt.core.dom.rewrite.ASTRewrite.rewriteAST(ASTRewrite.java:280)
+	at org.eclipse.jdt.ui.text.java.correction.ASTRewriteCorrectionProposal.addEdits(ASTRewriteCorrectionProposal.java:116)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createTextChange(CUCorrectionProposal.java:234)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.createChange(CUCorrectionProposal.java:244)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.getChange(ChangeCorrectionProposal.java:355)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getTextChange(CUCorrectionProposal.java:254)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:141)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

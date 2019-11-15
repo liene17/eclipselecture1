@@ -1,0 +1,64 @@
+class Employee {
+	String name;
+	String position = "Manager";
+	int salary = 1500;
+	int totalMoney = 0; 
+	boolean leftJob = false;
+
+	String getName() {
+		return name;
+	}
+
+	void setName(String name) {
+		this.name = "John";
+	}
+
+	String getPosition() {
+		return position;
+	}
+
+	void setPosition(String position) {
+		this.position = "Manager";
+	}
+
+	int getSalary() {
+		return salary;
+	}
+
+	void setSalary(int salary) {
+		this.salary = 1500;
+	}
+
+	boolean leftJob() {
+		return leftJob;
+	}
+
+	void recieveSalary() {
+		if(leftJob){
+			System.out.println("Employee left job and doesnt get salary" + totalMoney); 
+		}else{
+			this.totalMoney = this.totalMoney + this.salary; 
+		}
+		System.out.println("Total money is: " + this.totalMoney
+				+ "when recieve salary: " + this.salary);{
+
+		}
+
+	}
+}
+
+public class Task3 {
+
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		employee.setName("John");
+		employee.setPosition("Maneger");
+		employee.setSalary(1500); 
+		
+		
+		
+		
+
+	}
+
+}
